@@ -11,6 +11,11 @@
 		DD3D73BA2B35C66200483C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D73B92B35C66200483C85 /* ContentView.swift */; };
 		DD3D73BC2B35C66300483C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3D73BB2B35C66300483C85 /* Assets.xcassets */; };
 		DD3D73BF2B35C66300483C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3D73BE2B35C66300483C85 /* Preview Assets.xcassets */; };
+		DD3D73C82B35C87600483C85 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D73C72B35C87600483C85 /* Home.swift */; };
+		DD3D73CA2B35D09B00483C85 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3D73C92B35D09B00483C85 /* Card.swift */; };
+		DDF1A4BA2B35DB84001DA56E /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1A4B92B35DB84001DA56E /* DetailsView.swift */; };
+		DDF1A4BC2B36181B001DA56E /* FlightDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1A4BB2B36181B001DA56E /* FlightDetailsView.swift */; };
+		DDF1A4BE2B36202B001DA56E /* PaymentStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF1A4BD2B36202B001DA56E /* PaymentStatus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		DD3D73B92B35C66200483C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DD3D73BB2B35C66300483C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD3D73BE2B35C66300483C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DD3D73C72B35C87600483C85 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		DD3D73C92B35D09B00483C85 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DDF1A4B92B35DB84001DA56E /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		DDF1A4BB2B36181B001DA56E /* FlightDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailsView.swift; sourceTree = "<group>"; };
+		DDF1A4BD2B36202B001DA56E /* PaymentStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		DD3D73B62B35C66200483C85 /* flight */ = {
 			isa = PBXGroup;
 			children = (
+				DD3D73C62B35C85200483C85 /* Models */,
+				DD3D73C52B35C84800483C85 /* Views */,
 				DD3D73B72B35C66200483C85 /* flightApp.swift */,
 				DD3D73B92B35C66200483C85 /* ContentView.swift */,
 				DD3D73BB2B35C66300483C85 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				DD3D73BE2B35C66300483C85 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DD3D73C52B35C84800483C85 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D73C72B35C87600483C85 /* Home.swift */,
+				DDF1A4B92B35DB84001DA56E /* DetailsView.swift */,
+				DDF1A4BB2B36181B001DA56E /* FlightDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DD3D73C62B35C85200483C85 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD3D73C92B35D09B00483C85 /* Card.swift */,
+				DDF1A4BD2B36202B001DA56E /* PaymentStatus.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +169,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD3D73BA2B35C66200483C85 /* ContentView.swift in Sources */,
+				DDF1A4BE2B36202B001DA56E /* PaymentStatus.swift in Sources */,
+				DDF1A4BC2B36181B001DA56E /* FlightDetailsView.swift in Sources */,
+				DDF1A4BA2B35DB84001DA56E /* DetailsView.swift in Sources */,
+				DD3D73C82B35C87600483C85 /* Home.swift in Sources */,
 				DD3D73B82B35C66200483C85 /* flightApp.swift in Sources */,
+				DD3D73CA2B35D09B00483C85 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
